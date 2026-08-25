@@ -2,14 +2,12 @@
 
 An AI-powered corporate learning path recommendation system built with **LangGraph**, **RAG (FAISS + SentenceTransformers)**, **SQLite LMS Database Integration**, **FastAPI**, and a **Modern Web Frontend (Chat + Visual Timeline)**.
 
+GITHUB Link : https://github.com/KaviniMuthamizhvalavan/Trailblazers_Mini_Capstone
 ---
 
 ## 🏗️ Architecture
 
 ```
-
-GITHUB Link : https://github.com/mayurrishii/Trailblazers_Mini_Capstone
-
 [User message] 
      │
      ▼
