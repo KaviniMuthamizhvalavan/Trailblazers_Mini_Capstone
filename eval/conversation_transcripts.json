@@ -1,0 +1,726 @@
+{
+  "Salesforce Administrator - 4-Turn Refinement Test": [
+    {
+      "turn": 1,
+      "description": "State goal",
+      "user_message": "I want to become a Salesforce administrator.",
+      "ai_response": "Complete Salesforce admin training and certification prep.\n\n**Feasibility Note:** Path achievable within reasonable timeframe.\n\n**Total Duration:** ~20 weeks (100 hours)",
+      "path": [
+        {
+          "course_id": "SF-101",
+          "title": "Salesforce Platform Basics",
+          "track": "Salesforce",
+          "estimated_hours": 10.0,
+          "difficulty_level": "beginner",
+          "week_start": 1,
+          "week_end": 2,
+          "prerequisite_ids": [],
+          "reason": "Foundational knowledge of Salesforce platform"
+        },
+        {
+          "course_id": "SF-102",
+          "title": "Salesforce Administration Essentials",
+          "track": "Salesforce",
+          "estimated_hours": 20.0,
+          "difficulty_level": "intermediate",
+          "week_start": 3,
+          "week_end": 6,
+          "prerequisite_ids": [
+            "SF-101"
+          ],
+          "reason": "Core admin skills for Salesforce"
+        },
+        {
+          "course_id": "SF-103",
+          "title": "Salesforce Data Modeling and Management",
+          "track": "Salesforce",
+          "estimated_hours": 15.0,
+          "difficulty_level": "intermediate",
+          "week_start": 7,
+          "week_end": 9,
+          "prerequisite_ids": [
+            "SF-101"
+          ],
+          "reason": "Data modeling and management skills"
+        },
+        {
+          "course_id": "SF-104",
+          "title": "Salesforce Flow and Automation",
+          "track": "Salesforce",
+          "estimated_hours": 18.0,
+          "difficulty_level": "intermediate",
+          "week_start": 10,
+          "week_end": 12,
+          "prerequisite_ids": [
+            "SF-102"
+          ],
+          "reason": "Learn automation with Salesforce Flow"
+        },
+        {
+          "course_id": "SF-105",
+          "title": "Salesforce Reports and Dashboards",
+          "track": "Salesforce",
+          "estimated_hours": 12.0,
+          "difficulty_level": "intermediate",
+          "week_start": 13,
+          "week_end": 14,
+          "prerequisite_ids": [
+            "SF-102"
+          ],
+          "reason": "Build reports and dashboards effectively"
+        },
+        {
+          "course_id": "SF-106",
+          "title": "Salesforce Administrator Certification Prep",
+          "track": "Salesforce",
+          "estimated_hours": 25.0,
+          "difficulty_level": "advanced",
+          "week_start": 15,
+          "week_end": 20,
+          "prerequisite_ids": [
+            "SF-102",
+            "SF-103",
+            "SF-104"
+          ],
+          "reason": "Prepare for Salesforce Administrator certification"
+        }
+      ],
+      "path_ids": [
+        "SF-101",
+        "SF-102",
+        "SF-103",
+        "SF-104",
+        "SF-105",
+        "SF-106"
+      ],
+      "goals": "I want to become a Salesforce administrator.",
+      "background": "",
+      "time_availability": "",
+      "active_constraints": [],
+      "superseded_constraints": [],
+      "all_constraints": [],
+      "validation_results": {
+        "goals contains 'salesforce'": true
+      },
+      "is_refinement": false
+    },
+    {
+      "turn": 2,
+      "description": "Add constraint: no prior experience",
+      "user_message": "I have no prior Salesforce experience at all.",
+      "ai_response": "Complete Salesforce admin training in 20 weeks.\n\n**Feasibility Note:** Path achievable within 20 weeks.\n\n**Total Duration:** ~20 weeks (100 hours)",
+      "path": [
+        {
+          "course_id": "SF-101",
+          "title": "Salesforce Platform Basics",
+          "track": "Salesforce",
+          "estimated_hours": 10.0,
+          "difficulty_level": "beginner",
+          "week_start": 1,
+          "week_end": 2,
+          "prerequisite_ids": [],
+          "reason": "Foundational knowledge of Salesforce platform"
+        },
+        {
+          "course_id": "SF-102",
+          "title": "Salesforce Administration Essentials",
+          "track": "Salesforce",
+          "estimated_hours": 20.0,
+          "difficulty_level": "intermediate",
+          "week_start": 3,
+          "week_end": 6,
+          "prerequisite_ids": [
+            "SF-101"
+          ],
+          "reason": "Core admin skills for Salesforce"
+        },
+        {
+          "course_id": "SF-103",
+          "title": "Salesforce Data Modeling and Management",
+          "track": "Salesforce",
+          "estimated_hours": 15.0,
+          "difficulty_level": "intermediate",
+          "week_start": 7,
+          "week_end": 9,
+          "prerequisite_ids": [
+            "SF-101"
+          ],
+          "reason": "Data modeling and management skills"
+        },
+        {
+          "course_id": "SF-104",
+          "title": "Salesforce Flow and Automation",
+          "track": "Salesforce",
+          "estimated_hours": 18.0,
+          "difficulty_level": "intermediate",
+          "week_start": 10,
+          "week_end": 12,
+          "prerequisite_ids": [
+            "SF-102"
+          ],
+          "reason": "Learn automation with Salesforce Flow"
+        },
+        {
+          "course_id": "SF-105",
+          "title": "Salesforce Reports and Dashboards",
+          "track": "Salesforce",
+          "estimated_hours": 12.0,
+          "difficulty_level": "intermediate",
+          "week_start": 13,
+          "week_end": 14,
+          "prerequisite_ids": [
+            "SF-102"
+          ],
+          "reason": "Build reports and dashboards effectively"
+        },
+        {
+          "course_id": "SF-106",
+          "title": "Salesforce Administrator Certification Prep",
+          "track": "Salesforce",
+          "estimated_hours": 25.0,
+          "difficulty_level": "advanced",
+          "week_start": 15,
+          "week_end": 20,
+          "prerequisite_ids": [
+            "SF-102",
+            "SF-103",
+            "SF-104"
+          ],
+          "reason": "Prepare for Salesforce Administrator certification"
+        }
+      ],
+      "path_ids": [
+        "SF-101",
+        "SF-102",
+        "SF-103",
+        "SF-104",
+        "SF-105",
+        "SF-106"
+      ],
+      "goals": "I want to become a Salesforce administrator.",
+      "background": "",
+      "time_availability": "",
+      "active_constraints": [
+        "no prior Salesforce experience"
+      ],
+      "superseded_constraints": [],
+      "all_constraints": [
+        {
+          "turn": 2,
+          "constraint": "no prior Salesforce experience",
+          "superseded": true
+        }
+      ],
+      "validation_results": {
+        "path contains SF-101": true,
+        "active: no prior": true
+      },
+      "is_refinement": true
+    },
+    {
+      "turn": 3,
+      "description": "Add second unrelated constraint: time limit",
+      "user_message": "I only have 5 hours a week to study.",
+      "ai_response": "Path to become a Salesforce administrator.\n\n**Feasibility Note:** Achievable within the given timeframe.\n\n**Total Duration:** ~20 weeks (100 hours)",
+      "path": [
+        {
+          "course_id": "SF-101",
+          "title": "Salesforce Platform Basics",
+          "track": "Salesforce",
+          "estimated_hours": 10.0,
+          "difficulty_level": "beginner",
+          "week_start": 1,
+          "week_end": 2,
+          "prerequisite_ids": [],
+          "reason": "Foundational knowledge of Salesforce platform"
+        },
+        {
+          "course_id": "SF-102",
+          "title": "Salesforce Administration Essentials",
+          "track": "Salesforce",
+          "estimated_hours": 20.0,
+          "difficulty_level": "intermediate",
+          "week_start": 3,
+          "week_end": 6,
+          "prerequisite_ids": [
+            "SF-101"
+          ],
+          "reason": "Core admin skills for Salesforce"
+        },
+        {
+          "course_id": "SF-103",
+          "title": "Salesforce Data Modeling and Management",
+          "track": "Salesforce",
+          "estimated_hours": 15.0,
+          "difficulty_level": "intermediate",
+          "week_start": 7,
+          "week_end": 9,
+          "prerequisite_ids": [
+            "SF-101"
+          ],
+          "reason": "Data modeling and management skills"
+        },
+        {
+          "course_id": "SF-104",
+          "title": "Salesforce Flow and Automation",
+          "track": "Salesforce",
+          "estimated_hours": 18.0,
+          "difficulty_level": "intermediate",
+          "week_start": 10,
+          "week_end": 12,
+          "prerequisite_ids": [
+            "SF-102"
+          ],
+          "reason": "Learn automation with Salesforce Flow"
+        },
+        {
+          "course_id": "SF-105",
+          "title": "Salesforce Reports and Dashboards",
+          "track": "Salesforce",
+          "estimated_hours": 12.0,
+          "difficulty_level": "intermediate",
+          "week_start": 13,
+          "week_end": 14,
+          "prerequisite_ids": [
+            "SF-102"
+          ],
+          "reason": "Build reports and dashboards effectively"
+        },
+        {
+          "course_id": "SF-106",
+          "title": "Salesforce Administrator Certification Prep",
+          "track": "Salesforce",
+          "estimated_hours": 25.0,
+          "difficulty_level": "advanced",
+          "week_start": 15,
+          "week_end": 20,
+          "prerequisite_ids": [
+            "SF-102",
+            "SF-103",
+            "SF-104"
+          ],
+          "reason": "Prepare for Salesforce Administrator certification"
+        }
+      ],
+      "path_ids": [
+        "SF-101",
+        "SF-102",
+        "SF-103",
+        "SF-104",
+        "SF-105",
+        "SF-106"
+      ],
+      "goals": "I want to become a Salesforce administrator.",
+      "background": "",
+      "time_availability": "5 hours per week",
+      "active_constraints": [
+        "no prior Salesforce experience"
+      ],
+      "superseded_constraints": [],
+      "all_constraints": [
+        {
+          "turn": 2,
+          "constraint": "no prior Salesforce experience",
+          "superseded": true
+        }
+      ],
+      "validation_results": {
+        "path contains SF-101": true,
+        "active: no prior": true,
+        "time_availability contains '5'": true
+      },
+      "is_refinement": true
+    },
+    {
+      "turn": 4,
+      "description": "Contradiction: revise experience claim",
+      "user_message": "Actually, I do have some Salesforce basics. I've used it at a previous job for basic data entry and reporting.",
+      "ai_response": "Complete Salesforce admin training and certification prep.\n\n**Feasibility Note:** Achievable within 20 weeks.\n\n**Total Duration:** ~20 weeks (100 hours)",
+      "path": [
+        {
+          "course_id": "SF-101",
+          "title": "Salesforce Platform Basics",
+          "track": "Salesforce",
+          "estimated_hours": 10.0,
+          "difficulty_level": "beginner",
+          "week_start": 1,
+          "week_end": 2,
+          "prerequisite_ids": [],
+          "reason": "Foundational knowledge of Salesforce platform"
+        },
+        {
+          "course_id": "SF-102",
+          "title": "Salesforce Administration Essentials",
+          "track": "Salesforce",
+          "estimated_hours": 20.0,
+          "difficulty_level": "intermediate",
+          "week_start": 3,
+          "week_end": 6,
+          "prerequisite_ids": [
+            "SF-101"
+          ],
+          "reason": "Core admin skills for Salesforce"
+        },
+        {
+          "course_id": "SF-103",
+          "title": "Salesforce Data Modeling and Management",
+          "track": "Salesforce",
+          "estimated_hours": 15.0,
+          "difficulty_level": "intermediate",
+          "week_start": 7,
+          "week_end": 9,
+          "prerequisite_ids": [
+            "SF-101"
+          ],
+          "reason": "Data modeling and management skills"
+        },
+        {
+          "course_id": "SF-104",
+          "title": "Salesforce Flow and Automation",
+          "track": "Salesforce",
+          "estimated_hours": 18.0,
+          "difficulty_level": "intermediate",
+          "week_start": 10,
+          "week_end": 12,
+          "prerequisite_ids": [
+            "SF-102"
+          ],
+          "reason": "Learn automation with Salesforce Flow"
+        },
+        {
+          "course_id": "SF-105",
+          "title": "Salesforce Reports and Dashboards",
+          "track": "Salesforce",
+          "estimated_hours": 12.0,
+          "difficulty_level": "intermediate",
+          "week_start": 13,
+          "week_end": 14,
+          "prerequisite_ids": [
+            "SF-102"
+          ],
+          "reason": "Build reports and dashboards effectively"
+        },
+        {
+          "course_id": "SF-106",
+          "title": "Salesforce Administrator Certification Prep",
+          "track": "Salesforce",
+          "estimated_hours": 25.0,
+          "difficulty_level": "advanced",
+          "week_start": 15,
+          "week_end": 20,
+          "prerequisite_ids": [
+            "SF-102",
+            "SF-103",
+            "SF-104"
+          ],
+          "reason": "Prepare for Salesforce Administrator certification"
+        }
+      ],
+      "path_ids": [
+        "SF-101",
+        "SF-102",
+        "SF-103",
+        "SF-104",
+        "SF-105",
+        "SF-106"
+      ],
+      "goals": "I want to become a Salesforce administrator.",
+      "background": "I have some Salesforce basics. I've used it at a previous job for basic data entry and reporting.",
+      "time_availability": "5 hours per week",
+      "active_constraints": [],
+      "superseded_constraints": [
+        "no prior Salesforce experience"
+      ],
+      "all_constraints": [
+        {
+          "turn": 2,
+          "constraint": "no prior Salesforce experience",
+          "superseded": true
+        }
+      ],
+      "validation_results": {
+        "superseded: no prior": true,
+        "time_availability contains '5'": true
+      },
+      "is_refinement": true
+    }
+  ],
+  "SAP Consultant Path - With LMS History": [
+    {
+      "turn": 1,
+      "description": "State goal with existing history",
+      "user_message": "I'm learner L001. I want to become a certified SAP consultant. I already have some SAP training completed.",
+      "ai_response": "Complete SAP training for certification.\n\n**Feasibility Note:** Achievable within available time.\n\n**Total Duration:** ~8 weeks (50 hours)",
+      "path": [
+        {
+          "course_id": "SAP-106",
+          "title": "SAP Materials Management (MM)",
+          "track": "SAP",
+          "estimated_hours": 20.0,
+          "difficulty_level": "intermediate",
+          "week_start": 1,
+          "week_end": 4,
+          "prerequisite_ids": [
+            "SAP-101"
+          ],
+          "reason": "Prerequisite for advanced courses."
+        },
+        {
+          "course_id": "SAP-108",
+          "title": "SAP Consultant Certification Prep",
+          "track": "SAP",
+          "estimated_hours": 30.0,
+          "difficulty_level": "advanced",
+          "week_start": 5,
+          "week_end": 8,
+          "prerequisite_ids": [
+            "SAP-104",
+            "SAP-106"
+          ],
+          "reason": "Certification prep course."
+        }
+      ],
+      "path_ids": [
+        "SAP-106",
+        "SAP-108"
+      ],
+      "goals": "I want to become a certified SAP consultant.",
+      "background": "I already have some SAP training completed.",
+      "time_availability": "",
+      "active_constraints": [],
+      "superseded_constraints": [],
+      "all_constraints": [],
+      "validation_results": {
+        "path excludes SAP-101": true,
+        "path excludes SAP-102": true,
+        "path excludes SAP-103": true
+      },
+      "is_refinement": false
+    },
+    {
+      "turn": 2,
+      "description": "Add time constraint",
+      "user_message": "I can dedicate 8 hours per week to studying.",
+      "ai_response": "Path leads to SAP consultant certification.\n\n**Feasibility Note:** Achievable within available time.\n\n**Total Duration:** ~8 weeks (50 hours)",
+      "path": [
+        {
+          "course_id": "SAP-106",
+          "title": "SAP Materials Management (MM)",
+          "track": "SAP",
+          "estimated_hours": 20.0,
+          "difficulty_level": "intermediate",
+          "week_start": 1,
+          "week_end": 4,
+          "prerequisite_ids": [
+            "SAP-101"
+          ],
+          "reason": "Prerequisite for advanced courses."
+        },
+        {
+          "course_id": "SAP-108",
+          "title": "SAP Consultant Certification Prep",
+          "track": "SAP",
+          "estimated_hours": 30.0,
+          "difficulty_level": "advanced",
+          "week_start": 5,
+          "week_end": 8,
+          "prerequisite_ids": [
+            "SAP-104",
+            "SAP-106"
+          ],
+          "reason": "Certification prep course."
+        }
+      ],
+      "path_ids": [
+        "SAP-106",
+        "SAP-108"
+      ],
+      "goals": "I want to become a certified SAP consultant.",
+      "background": "I already have some SAP training completed.",
+      "time_availability": "8 hours per week",
+      "active_constraints": [],
+      "superseded_constraints": [],
+      "all_constraints": [],
+      "validation_results": {
+        "path excludes SAP-101": true,
+        "path excludes SAP-102": true,
+        "path excludes SAP-103": true,
+        "time_availability contains '8'": true
+      },
+      "is_refinement": true
+    }
+  ],
+  "Cloud Architecture - Multi-Turn with Redirection": [
+    {
+      "turn": 1,
+      "description": "Initial AWS goal",
+      "user_message": "I want to learn cloud computing and get AWS certified. I'm a complete beginner with no cloud experience.",
+      "ai_response": "Path to AWS certification outlined.\n\n**Feasibility Note:** Achievable within reasonable timeframe.\n\n**Total Duration:** ~14 weeks (115 hours)",
+      "path": [
+        {
+          "course_id": "CLD-101",
+          "title": "Cloud Computing Fundamentals",
+          "track": "Cloud",
+          "estimated_hours": 10.0,
+          "difficulty_level": "beginner",
+          "week_start": 1,
+          "week_end": 1,
+          "prerequisite_ids": [],
+          "reason": "Foundational cloud computing concepts."
+        },
+        {
+          "course_id": "CLD-102",
+          "title": "AWS Cloud Practitioner Essentials",
+          "track": "Cloud",
+          "estimated_hours": 15.0,
+          "difficulty_level": "beginner",
+          "week_start": 2,
+          "week_end": 3,
+          "prerequisite_ids": [
+            "CLD-101"
+          ],
+          "reason": "AWS fundamentals and core services."
+        },
+        {
+          "course_id": "CLD-103",
+          "title": "AWS Solutions Architect Associate",
+          "track": "Cloud",
+          "estimated_hours": 30.0,
+          "difficulty_level": "intermediate",
+          "week_start": 4,
+          "week_end": 6,
+          "prerequisite_ids": [
+            "CLD-102"
+          ],
+          "reason": "Design secure AWS architectures."
+        },
+        {
+          "course_id": "CLD-104",
+          "title": "AWS DevOps and CI/CD",
+          "track": "Cloud",
+          "estimated_hours": 22.0,
+          "difficulty_level": "advanced",
+          "week_start": 7,
+          "week_end": 8,
+          "prerequisite_ids": [
+            "CLD-103"
+          ],
+          "reason": "Implement CI/CD on AWS."
+        },
+        {
+          "course_id": "CLD-108",
+          "title": "Cloud Architecture Design Patterns",
+          "track": "Cloud",
+          "estimated_hours": 20.0,
+          "difficulty_level": "advanced",
+          "week_start": 9,
+          "week_end": 10,
+          "prerequisite_ids": [
+            "CLD-103"
+          ],
+          "reason": "Learn cloud architecture design patterns."
+        },
+        {
+          "course_id": "CLD-110",
+          "title": "AWS Solutions Architect Professional",
+          "track": "Cloud",
+          "estimated_hours": 35.0,
+          "difficulty_level": "advanced",
+          "week_start": 11,
+          "week_end": 14,
+          "prerequisite_ids": [
+            "CLD-103",
+            "CLD-104"
+          ],
+          "reason": "Advanced AWS architecture strategies."
+        }
+      ],
+      "path_ids": [
+        "CLD-101",
+        "CLD-102",
+        "CLD-103",
+        "CLD-104",
+        "CLD-108",
+        "CLD-110"
+      ],
+      "goals": "learn cloud computing and get AWS certified",
+      "background": "complete beginner with no cloud experience",
+      "time_availability": "",
+      "active_constraints": [],
+      "superseded_constraints": [],
+      "all_constraints": [],
+      "validation_results": {
+        "path contains CLD-101": true
+      },
+      "is_refinement": false
+    },
+    {
+      "turn": 2,
+      "description": "Add preference for Azure",
+      "user_message": "Actually, my company uses Azure, so I'd prefer to focus on Azure track instead of AWS.",
+      "ai_response": "Path focuses on Azure cloud skills.\n\n**Feasibility Note:** Achievable within available timeframe.\n\n**Total Duration:** ~6 weeks (50 hours)",
+      "path": [
+        {
+          "course_id": "CLD-101",
+          "title": "Cloud Computing Fundamentals",
+          "track": "Cloud",
+          "estimated_hours": 10.0,
+          "difficulty_level": "beginner",
+          "week_start": 1,
+          "week_end": 1,
+          "prerequisite_ids": [],
+          "reason": "Foundational cloud computing concepts."
+        },
+        {
+          "course_id": "CLD-105",
+          "title": "Azure Fundamentals (AZ-900)",
+          "track": "Cloud",
+          "estimated_hours": 12.0,
+          "difficulty_level": "beginner",
+          "week_start": 2,
+          "week_end": 3,
+          "prerequisite_ids": [
+            "CLD-101"
+          ],
+          "reason": "Learn Azure cloud concepts and services."
+        },
+        {
+          "course_id": "CLD-106",
+          "title": "Azure Administrator (AZ-104)",
+          "track": "Cloud",
+          "estimated_hours": 28.0,
+          "difficulty_level": "intermediate",
+          "week_start": 4,
+          "week_end": 6,
+          "prerequisite_ids": [
+            "CLD-105"
+          ],
+          "reason": "Manage Azure resources and subscriptions."
+        }
+      ],
+      "path_ids": [
+        "CLD-101",
+        "CLD-105",
+        "CLD-106"
+      ],
+      "goals": "learn cloud computing and get AWS certified",
+      "background": "complete beginner with no cloud experience",
+      "time_availability": "",
+      "active_constraints": [
+        "prefer to focus on Azure track instead of AWS"
+      ],
+      "superseded_constraints": [],
+      "all_constraints": [
+        {
+          "turn": 2,
+          "constraint": "prefer to focus on Azure track instead of AWS",
+          "superseded": false
+        }
+      ],
+      "validation_results": {
+        "path contains CLD-105": true
+      },
+      "is_refinement": true
+    }
+  ]
+}

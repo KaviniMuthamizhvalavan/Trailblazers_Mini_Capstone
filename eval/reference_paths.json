@@ -1,0 +1,231 @@
+{
+  "reference_paths": [
+    {
+      "persona_id": "RP-001",
+      "description": "No SAP background, wants SAP consultant role, 5 hrs/week",
+      "goals": "Become an SAP consultant",
+      "background": "No SAP experience, business administration degree",
+      "time_availability": "5 hours per week",
+      "learner_id": "",
+      "expected_path": [
+        {
+          "course_id": "SAP-101",
+          "title": "SAP Fundamentals",
+          "estimated_hours": 12,
+          "rationale": "Must start here — absolute beginner with no SAP background"
+        },
+        {
+          "course_id": "SAP-102",
+          "title": "SAP Financial Accounting (FI) Basics",
+          "estimated_hours": 20,
+          "rationale": "Core FI module — prerequisite for FICO and consultant work"
+        },
+        {
+          "course_id": "SAP-103",
+          "title": "SAP Controlling (CO) Fundamentals",
+          "estimated_hours": 18,
+          "rationale": "Core CO module — can run parallel with or after FI"
+        },
+        {
+          "course_id": "SAP-106",
+          "title": "SAP Materials Management (MM)",
+          "estimated_hours": 20,
+          "rationale": "MM knowledge essential for consultant versatility"
+        },
+        {
+          "course_id": "SAP-104",
+          "title": "SAP FICO Advanced Integration",
+          "estimated_hours": 25,
+          "rationale": "Advanced integration after both FI and CO are complete"
+        },
+        {
+          "course_id": "SAP-108",
+          "title": "SAP Consultant Certification Prep",
+          "estimated_hours": 30,
+          "rationale": "Final step — certification prep after core modules"
+        }
+      ],
+      "expected_total_hours": 125,
+      "expected_weeks_approx": 25,
+      "notes": "At 5 hrs/week, this is a ~25 week plan. Must include SAP-101 first. SAP-104 must come after both SAP-102 and SAP-103. SAP-108 needs SAP-104 and SAP-106."
+    },
+    {
+      "persona_id": "RP-002",
+      "description": "Cloud beginner, wants AWS Solutions Architect, 10 hrs/week",
+      "goals": "Become an AWS Solutions Architect",
+      "background": "Basic IT knowledge, no cloud experience",
+      "time_availability": "10 hours per week",
+      "learner_id": "",
+      "expected_path": [
+        {
+          "course_id": "CLD-101",
+          "title": "Cloud Computing Fundamentals",
+          "estimated_hours": 10,
+          "rationale": "Cloud basics first for someone with no cloud experience"
+        },
+        {
+          "course_id": "CLD-102",
+          "title": "AWS Cloud Practitioner Essentials",
+          "estimated_hours": 15,
+          "rationale": "AWS-specific foundations before architect-level content"
+        },
+        {
+          "course_id": "CLD-103",
+          "title": "AWS Solutions Architect Associate",
+          "estimated_hours": 30,
+          "rationale": "Core target — the main certification goal"
+        },
+        {
+          "course_id": "CLD-108",
+          "title": "Cloud Architecture Design Patterns",
+          "estimated_hours": 20,
+          "rationale": "Deepens architectural thinking beyond cert content"
+        },
+        {
+          "course_id": "CLD-104",
+          "title": "AWS DevOps and CI/CD",
+          "estimated_hours": 22,
+          "rationale": "DevOps complements architect skills"
+        }
+      ],
+      "expected_total_hours": 97,
+      "expected_weeks_approx": 10,
+      "notes": "At 10 hrs/week, achievable in ~10 weeks. CLD-101 → CLD-102 → CLD-103 is the mandatory chain. CLD-108 and CLD-104 both require CLD-103."
+    },
+    {
+      "persona_id": "RP-003",
+      "description": "Salesforce admin aspirant, no prior experience, 3 hrs/week (tight constraint)",
+      "goals": "Become a Salesforce Administrator",
+      "background": "No prior CRM or Salesforce experience",
+      "time_availability": "3 hours per week",
+      "learner_id": "",
+      "expected_path": [
+        {
+          "course_id": "SF-101",
+          "title": "Salesforce Platform Basics",
+          "estimated_hours": 10,
+          "rationale": "Platform fundamentals for complete beginner"
+        },
+        {
+          "course_id": "SF-102",
+          "title": "Salesforce Administration Essentials",
+          "estimated_hours": 20,
+          "rationale": "Core admin skills — the central course for this goal"
+        },
+        {
+          "course_id": "SF-103",
+          "title": "Salesforce Data Modeling and Management",
+          "estimated_hours": 15,
+          "rationale": "Data management is essential for admin certification"
+        },
+        {
+          "course_id": "SF-104",
+          "title": "Salesforce Flow and Automation",
+          "estimated_hours": 18,
+          "rationale": "Automation is a key admin exam topic"
+        },
+        {
+          "course_id": "SF-105",
+          "title": "Salesforce Reports and Dashboards",
+          "estimated_hours": 12,
+          "rationale": "Reporting is critical for admin work"
+        },
+        {
+          "course_id": "SF-106",
+          "title": "Salesforce Administrator Certification Prep",
+          "estimated_hours": 25,
+          "rationale": "Final cert prep — requires SF-102, SF-103, SF-104"
+        }
+      ],
+      "expected_total_hours": 100,
+      "expected_weeks_approx": 34,
+      "notes": "At 3 hrs/week, this is a ~34 week plan. The agent should flag that this is a long timeline. SF-106 requires SF-102, SF-103, AND SF-104."
+    },
+    {
+      "persona_id": "RP-004",
+      "description": "AI/ML practitioner with Python basics, 8 hrs/week",
+      "goals": "Build expertise in AI/ML for a career in data science",
+      "background": "Knows Python basics, familiar with statistics fundamentals",
+      "time_availability": "8 hours per week",
+      "learner_id": "",
+      "expected_path": [
+        {
+          "course_id": "AI-101",
+          "title": "Introduction to Artificial Intelligence",
+          "estimated_hours": 10,
+          "rationale": "AI foundations — may be partially review but establishes baseline"
+        },
+        {
+          "course_id": "AI-102",
+          "title": "Python for Data Science and ML",
+          "estimated_hours": 20,
+          "rationale": "Data science Python stack — builds on their Python basics"
+        },
+        {
+          "course_id": "AI-103",
+          "title": "Machine Learning Algorithms Deep Dive",
+          "estimated_hours": 25,
+          "rationale": "Core ML — the heart of the data science path"
+        },
+        {
+          "course_id": "AI-104",
+          "title": "Deep Learning with TensorFlow and PyTorch",
+          "estimated_hours": 30,
+          "rationale": "Deep learning frameworks for advanced ML work"
+        },
+        {
+          "course_id": "AI-105",
+          "title": "Natural Language Processing (NLP)",
+          "estimated_hours": 25,
+          "rationale": "NLP is a high-demand specialization"
+        }
+      ],
+      "expected_total_hours": 110,
+      "expected_weeks_approx": 14,
+      "notes": "At 8 hrs/week, achievable in ~14 weeks. AI-101 → AI-102 → AI-103 → AI-104/AI-105 is the main chain. AI-104 and AI-105 both require AI-103."
+    },
+    {
+      "persona_id": "RP-005",
+      "description": "Cybersecurity career changer, IT background, 6 hrs/week",
+      "goals": "Transition into cybersecurity, get Security+ certified",
+      "background": "5 years IT support experience, familiar with networking basics",
+      "time_availability": "6 hours per week",
+      "learner_id": "",
+      "expected_path": [
+        {
+          "course_id": "CS-101",
+          "title": "Cybersecurity Fundamentals",
+          "estimated_hours": 12,
+          "rationale": "Security foundations — IT background helps but cyber-specific concepts needed"
+        },
+        {
+          "course_id": "CS-102",
+          "title": "Network Security and Firewalls",
+          "estimated_hours": 20,
+          "rationale": "Network security builds on their IT/networking background"
+        },
+        {
+          "course_id": "CS-108",
+          "title": "CompTIA Security+ Certification Prep",
+          "estimated_hours": 25,
+          "rationale": "Direct path to Security+ — their stated certification goal"
+        },
+        {
+          "course_id": "CS-103",
+          "title": "Ethical Hacking and Penetration Testing",
+          "estimated_hours": 28,
+          "rationale": "Practical security skills for career advancement"
+        },
+        {
+          "course_id": "CS-104",
+          "title": "Security Operations Center (SOC) Analyst",
+          "estimated_hours": 22,
+          "rationale": "SOC analyst is a common entry point for career changers"
+        }
+      ],
+      "expected_total_hours": 107,
+      "expected_weeks_approx": 18,
+      "notes": "At 6 hrs/week, ~18 weeks. CS-108 requires both CS-101 and CS-102. CS-103 and CS-104 both require CS-102. Security+ cert is the primary goal."
+    }
+  ]
+}

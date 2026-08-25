@@ -1,0 +1,49 @@
+{
+  "learners": [
+    {
+      "learner_id": "L001",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@example.com",
+      "department": "Finance",
+      "completed_courses": ["SAP-101", "SAP-102", "SAP-103"],
+      "enrolled_courses": ["SAP-104"],
+      "notes": "Has completed SAP basics and both FI and CO — ready for advanced FICO. Currently enrolled in SAP-104."
+    },
+    {
+      "learner_id": "L002",
+      "name": "James Chen",
+      "email": "james.chen@example.com",
+      "department": "IT",
+      "completed_courses": ["CLD-101", "CLD-102", "CS-101"],
+      "enrolled_courses": [],
+      "notes": "Cloud practitioner with basic security knowledge. Has AWS foundations but no solutions architect training yet."
+    },
+    {
+      "learner_id": "L003",
+      "name": "Maria Santos",
+      "email": "maria.santos@example.com",
+      "department": "Sales",
+      "completed_courses": [],
+      "enrolled_courses": [],
+      "notes": "Complete beginner. No prior enterprise software training. Interested in Salesforce."
+    },
+    {
+      "learner_id": "L004",
+      "name": "Ahmed Hassan",
+      "email": "ahmed.hassan@example.com",
+      "department": "Engineering",
+      "completed_courses": ["AI-101", "AI-102", "AI-103", "CLD-101", "CLD-102", "CLD-103"],
+      "enrolled_courses": ["AI-104"],
+      "notes": "Strong ML foundation with cloud architecture skills. Currently studying deep learning. Cross-domain: AI + Cloud."
+    },
+    {
+      "learner_id": "L005",
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@example.com",
+      "department": "HR",
+      "completed_courses": ["WD-101"],
+      "enrolled_courses": ["WD-102"],
+      "notes": "Started Workday training. Has HCM foundations, currently learning business processes."
+    }
+  ]
+}

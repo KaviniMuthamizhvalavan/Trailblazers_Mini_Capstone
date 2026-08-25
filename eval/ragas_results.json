@@ -1,0 +1,297 @@
+{
+  "summary": {
+    "num_questions": 12,
+    "avg_answer_relevancy": 0.942,
+    "avg_context_recall": 0.972
+  },
+  "detailed_results": [
+    {
+      "question": "What are the prerequisites for the Advanced SAP FICO course?",
+      "ground_truth": "The prerequisites for SAP FICO Advanced Integration (SAP-104) are SAP Financial Accounting (FI) Basics (SAP-102) and SAP Controlling (CO) Fundamentals (SAP-103).",
+      "generated_answer": "The prerequisites for the Advanced SAP FICO course (SAP-104: SAP FICO Advanced Integration) are SAP-102: SAP Financial Accounting (FI) Basics and SAP-103: SAP Controlling (CO) Fundamentals.",
+      "retrieved_ids": [
+        "SAP-104",
+        "SAP-108",
+        "SAP-102",
+        "SAP-103",
+        "SAP-107",
+        "SAP-101",
+        "SAP-106",
+        "SAP-105",
+        "SF-102",
+        "SF-106"
+      ],
+      "expected_ids": [
+        "SAP-102",
+        "SAP-103",
+        "SAP-104"
+      ],
+      "answer_relevancy": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question": "What courses should I take before the SAP Consultant Certification Prep?",
+      "ground_truth": "Before SAP Consultant Certification Prep (SAP-108), you need SAP FICO Advanced Integration (SAP-104) and SAP Materials Management (SAP-106).",
+      "generated_answer": "Before taking the SAP Consultant Certification Prep (ID: SAP-108), you should complete the following courses:\n\n1. SAP FICO Advanced Integration (ID: SAP-104)\n2. SAP Materials Management (MM) (ID: SAP-106)",
+      "retrieved_ids": [
+        "SAP-108",
+        "SAP-107",
+        "SAP-106",
+        "SAP-101",
+        "SAP-103",
+        "SAP-104",
+        "SF-106",
+        "SAP-102",
+        "SAP-105",
+        "SF-102"
+      ],
+      "expected_ids": [
+        "SAP-104",
+        "SAP-106",
+        "SAP-108"
+      ],
+      "answer_relevancy": 0.85,
+      "context_recall": 1.0
+    },
+    {
+      "question": "Which beginner courses are available for someone new to cloud computing?",
+      "ground_truth": "For cloud computing beginners, Cloud Computing Fundamentals (CLD-101) is the starting point, followed by AWS Cloud Practitioner Essentials (CLD-102) or Azure Fundamentals (CLD-105).",
+      "generated_answer": "The beginner courses available for someone new to cloud computing are:\n\n1. Cloud Computing Fundamentals (ID: CLD-101)\n2. AWS Cloud Practitioner Essentials (ID: CLD-102)\n3. Azure Fundamentals (AZ-900) (ID: CLD-105)",
+      "retrieved_ids": [
+        "CLD-101",
+        "CLD-108",
+        "CLD-102",
+        "SF-108",
+        "CS-105",
+        "CLD-103",
+        "CLD-105",
+        "CLD-104",
+        "CLD-106",
+        "CLD-110"
+      ],
+      "expected_ids": [
+        "CLD-101",
+        "CLD-102",
+        "CLD-105"
+      ],
+      "answer_relevancy": 0.9,
+      "context_recall": 1.0
+    },
+    {
+      "question": "What is the prerequisite chain for becoming an AWS Solutions Architect?",
+      "ground_truth": "The chain is Cloud Computing Fundamentals (CLD-101) \u2192 AWS Cloud Practitioner Essentials (CLD-102) \u2192 AWS Solutions Architect Associate (CLD-103).",
+      "generated_answer": "The prerequisite chain for becoming an AWS Solutions Architect is as follows:\n\n1. **AWS Cloud Practitioner Essentials (CLD-102)** - Beginner level.\n2. **AWS Solutions Architect Associate (CLD-103)** - Intermediate level.\n3. **AWS Solutions Architect Professional (CLD-110)** - Advanced level.\n\nAdditionally, the **AWS DevOps and CI/CD (CLD-104)** and **Cloud Architecture Design Patterns (CLD-108)** courses also require the completion of **CLD-103** as a prerequisite.",
+      "retrieved_ids": [
+        "CLD-110",
+        "CLD-103",
+        "CLD-104",
+        "CLD-108",
+        "CLD-102",
+        "CS-105",
+        "AI-106",
+        "CLD-109",
+        "CLD-107",
+        "SAP-105"
+      ],
+      "expected_ids": [
+        "CLD-101",
+        "CLD-102",
+        "CLD-103"
+      ],
+      "answer_relevancy": 0.8,
+      "context_recall": 0.6666666666666666
+    },
+    {
+      "question": "How many hours does the Salesforce Administrator Certification Prep take?",
+      "ground_truth": "The Salesforce Administrator Certification Prep (SF-106) takes an estimated 25 hours.",
+      "generated_answer": "The Salesforce Administrator Certification Prep takes 25 hours.",
+      "retrieved_ids": [
+        "SF-106",
+        "SAP-108",
+        "WD-108",
+        "SF-102",
+        "CLD-106",
+        "CS-108",
+        "SF-108",
+        "SF-103",
+        "WD-107",
+        "SF-104"
+      ],
+      "expected_ids": [
+        "SF-106"
+      ],
+      "answer_relevancy": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question": "What are the prerequisites for the Workday Integration and Studio course?",
+      "ground_truth": "Workday Integration and Studio (WD-105) requires Workday Business Processes (WD-102) and Workday Advanced Reporting and Analytics (WD-104).",
+      "generated_answer": "The prerequisites for the Workday Integration and Studio course (ID: WD-105) are WD-102: Workday Business Processes and WD-104: Workday Advanced Reporting and Analytics.",
+      "retrieved_ids": [
+        "WD-105",
+        "WD-108",
+        "WD-101",
+        "WD-107",
+        "WD-102",
+        "WD-104",
+        "SF-102",
+        "WD-106",
+        "WD-103",
+        "SF-103"
+      ],
+      "expected_ids": [
+        "WD-102",
+        "WD-104",
+        "WD-105"
+      ],
+      "answer_relevancy": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question": "Which cybersecurity courses are suitable for an intermediate learner?",
+      "ground_truth": "Intermediate cybersecurity courses include Network Security and Firewalls (CS-102), Ethical Hacking and Penetration Testing (CS-103), SOC Analyst (CS-104), and CompTIA Security+ Certification Prep (CS-108).",
+      "generated_answer": "The suitable cybersecurity courses for an intermediate learner are:\n\n1. CompTIA Security+ Certification Prep (ID: CS-108)\n2. Network Security and Firewalls (ID: CS-102)\n3. Security Operations Center (SOC) Analyst (ID: CS-104)\n4. Ethical Hacking and Penetration Testing (ID: CS-103)",
+      "retrieved_ids": [
+        "CS-101",
+        "CS-108",
+        "CS-102",
+        "CS-104",
+        "CS-106",
+        "CS-103",
+        "CS-107",
+        "CS-105",
+        "SF-102",
+        "SF-104"
+      ],
+      "expected_ids": [
+        "CS-102",
+        "CS-103",
+        "CS-104",
+        "CS-108"
+      ],
+      "answer_relevancy": 0.9,
+      "context_recall": 1.0
+    },
+    {
+      "question": "What courses cover deep learning and neural networks?",
+      "ground_truth": "Deep Learning with TensorFlow and PyTorch (AI-104) covers building and training deep neural networks including CNNs, RNNs, and LSTMs. It requires Machine Learning Algorithms Deep Dive (AI-103).",
+      "generated_answer": "The courses that cover deep learning and neural networks are:\n\n1. Deep Learning with TensorFlow and PyTorch (ID: AI-104)\n2. Computer Vision Fundamentals (ID: AI-108)\n3. Generative AI and LLM Applications (ID: AI-107)\n4. Natural Language Processing (NLP) (ID: AI-105)",
+      "retrieved_ids": [
+        "AI-104",
+        "AI-103",
+        "AI-108",
+        "AI-107",
+        "AI-101",
+        "AI-105",
+        "AI-102",
+        "AI-106",
+        "CS-102",
+        "CS-108"
+      ],
+      "expected_ids": [
+        "AI-104",
+        "AI-103"
+      ],
+      "answer_relevancy": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question": "What is the difference between SAP FI and SAP CO modules?",
+      "ground_truth": "SAP FI (Financial Accounting) covers general ledger, accounts payable/receivable, and asset accounting. SAP CO (Controlling) covers cost center accounting, internal orders, and profitability analysis. Both require SAP Fundamentals (SAP-101).",
+      "generated_answer": "SAP FI (Financial Accounting) focuses on core financial processes such as general ledger, accounts payable, accounts receivable, and asset accounting, enabling users to post financial transactions and generate basic financial reports. In contrast, SAP CO (Controlling) emphasizes internal management reporting and cost management, covering areas like cost center accounting, internal orders, profitability analysis, and cost element accounting. While FI deals with external financial reporting, CO is concerned with internal cost tracking and analysis, and the two modules integrate to provide comprehensive financial insights.",
+      "retrieved_ids": [
+        "SAP-104",
+        "SAP-103",
+        "SAP-102",
+        "SAP-108",
+        "SAP-101",
+        "SAP-106",
+        "SAP-105",
+        "SAP-107",
+        "CS-107",
+        "CS-104"
+      ],
+      "expected_ids": [
+        "SAP-102",
+        "SAP-103",
+        "SAP-101"
+      ],
+      "answer_relevancy": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question": "Which courses require both cloud and security knowledge?",
+      "ground_truth": "Cloud Security Architecture (CS-105) requires both Network Security and Firewalls (CS-102) and AWS Solutions Architect Associate (CLD-103), making it a cross-domain course.",
+      "generated_answer": "The courses that require both cloud and security knowledge are:\n\n1. Cloud Security Architecture (ID: CS-105)\n2. CompTIA Security+ Certification Prep (ID: CS-108) (requires knowledge from Network Security and Firewalls, which includes cloud security aspects)",
+      "retrieved_ids": [
+        "CS-105",
+        "CLD-101",
+        "CS-102",
+        "CLD-103",
+        "CS-101",
+        "SF-108",
+        "CS-108",
+        "CLD-108",
+        "CLD-102",
+        "CLD-105"
+      ],
+      "expected_ids": [
+        "CS-105",
+        "CS-102",
+        "CLD-103"
+      ],
+      "answer_relevancy": 0.85,
+      "context_recall": 1.0
+    },
+    {
+      "question": "What NLP topics are covered in the AI track?",
+      "ground_truth": "Natural Language Processing (AI-105) covers text preprocessing, word embeddings, sequence models, attention mechanisms, transformers, and BERT/GPT fine-tuning. It requires Machine Learning Algorithms Deep Dive (AI-103).",
+      "generated_answer": "The NLP topics covered in the AI track include text preprocessing, word embeddings (Word2Vec, GloVe), sequence models, attention mechanisms, transformers, and BERT/GPT fine-tuning for text tasks.",
+      "retrieved_ids": [
+        "AI-105",
+        "AI-107",
+        "AI-101",
+        "AI-103",
+        "AI-108",
+        "AI-102",
+        "AI-104",
+        "AI-106",
+        "SAP-101",
+        "SF-105"
+      ],
+      "expected_ids": [
+        "AI-105",
+        "AI-103"
+      ],
+      "answer_relevancy": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question": "How long would a complete Workday learning path take?",
+      "ground_truth": "A complete Workday path from HCM Foundations through Pro Certification includes WD-101 (15h), WD-102 (18h), WD-103 (20h), WD-104 (22h), WD-105 (25h), and WD-108 (25h), totaling approximately 125 hours.",
+      "generated_answer": "The complete Workday learning path would take a total of 138 hours. This is the sum of the estimated hours for each course:\n\n- WD-101: 15 hours\n- WD-102: 18 hours\n- WD-103: 20 hours\n- WD-104: 22 hours\n- WD-105: 25 hours\n- WD-106: 20 hours\n- WD-107: 18 hours\n- WD-108: 25 hours\n\nTotal: 15 + 18 + 20 + 22 + 25 + 20 + 18 + 25 = 138 hours.",
+      "retrieved_ids": [
+        "WD-107",
+        "WD-101",
+        "WD-108",
+        "WD-104",
+        "WD-106",
+        "WD-105",
+        "WD-102",
+        "WD-103",
+        "SF-107",
+        "SAP-107"
+      ],
+      "expected_ids": [
+        "WD-101",
+        "WD-102",
+        "WD-103",
+        "WD-104",
+        "WD-105",
+        "WD-108"
+      ],
+      "answer_relevancy": 1.0,
+      "context_recall": 1.0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Core Web & Async
+fastapi
+uvicorn
+python-dotenv
+pydantic
+pydantic-settings
+
+# LLM & Agent Orchestration
+langchain
+langchain-openai
+langchain-community
+langgraph
+openai
+
+# Vector Store & Search
+faiss-cpu
+sentence-transformers
+
+# Database & Storage
+sqlalchemy
+
+# Testing
+pytest
+
+# Observability
+langsmith
+
+# Evaluation
+ragas
+datasets

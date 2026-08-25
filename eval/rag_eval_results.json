@@ -1,0 +1,84 @@
+{
+  "evaluation_method": "Ragas Library (answer_relevancy, context_recall)",
+  "summary": {
+    "num_questions": 3,
+    "answer_relevancy_scored": 3,
+    "context_recall_scored": 3,
+    "avg_answer_relevancy": 0.96,
+    "avg_context_recall": 1.0
+  },
+  "detailed_results": [
+    {
+      "question": "What are the prerequisites for the Advanced SAP FICO course?",
+      "ground_truth": "The prerequisites for SAP FICO Advanced Integration (SAP-104) are SAP Financial Accounting (FI) Basics (SAP-102) and SAP Controlling (CO) Fundamentals (SAP-103).",
+      "generated_answer": "The prerequisites for the Advanced SAP FICO course (SAP-104: SAP FICO Advanced Integration) are:\n\n1. SAP-102: SAP Financial Accounting (FI) Basics\n2. SAP-103: SAP Controlling (CO) Fundamentals",
+      "retrieved_ids": [
+        "SAP-104",
+        "SAP-108",
+        "SAP-102",
+        "SAP-103",
+        "SAP-107",
+        "SAP-101",
+        "SAP-106",
+        "SAP-105",
+        "SF-102",
+        "SF-106"
+      ],
+      "expected_ids": [
+        "SAP-102",
+        "SAP-103",
+        "SAP-104"
+      ],
+      "answer_relevancy": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question": "What courses should I take before the SAP Consultant Certification Prep?",
+      "ground_truth": "Before SAP Consultant Certification Prep (SAP-108), you need SAP FICO Advanced Integration (SAP-104) and SAP Materials Management (SAP-106).",
+      "generated_answer": "Before taking the SAP Consultant Certification Prep (ID: SAP-108), you should complete the following prerequisite courses:\n\n1. SAP-104: SAP FICO Advanced Integration\n2. SAP-106: SAP Materials Management (MM)",
+      "retrieved_ids": [
+        "SAP-108",
+        "SAP-107",
+        "SAP-106",
+        "SAP-101",
+        "SAP-103",
+        "SAP-104",
+        "SF-106",
+        "SAP-102",
+        "SAP-105",
+        "SF-102"
+      ],
+      "expected_ids": [
+        "SAP-104",
+        "SAP-106",
+        "SAP-108"
+      ],
+      "answer_relevancy": 0.8958108202135363,
+      "context_recall": 1.0
+    },
+    {
+      "question": "Which beginner courses are available for someone new to cloud computing?",
+      "ground_truth": "For cloud computing beginners, Cloud Computing Fundamentals (CLD-101) is the starting point, followed by AWS Cloud Practitioner Essentials (CLD-102) or Azure Fundamentals (CLD-105).",
+      "generated_answer": "The beginner courses available for someone new to cloud computing are:\n\n1. Cloud Computing Fundamentals (ID: CLD-101)\n2. AWS Cloud Practitioner Essentials (ID: CLD-102)\n3. Azure Fundamentals (AZ-900) (ID: CLD-105)",
+      "retrieved_ids": [
+        "CLD-101",
+        "CLD-108",
+        "CLD-102",
+        "SF-108",
+        "CS-105",
+        "CLD-103",
+        "CLD-105",
+        "CLD-104",
+        "CLD-106",
+        "CLD-110"
+      ],
+      "expected_ids": [
+        "CLD-101",
+        "CLD-102",
+        "CLD-105"
+      ],
+      "answer_relevancy": 0.9831647192349059,
+      "context_recall": 1.0
+    }
+  ]
+}

@@ -1,0 +1,540 @@
+{
+  "summary": {
+    "num_personas": 5,
+    "avg_overlap_score": 0.92,
+    "total_ordering_violations": 0,
+    "personas_with_perfect_ordering": 5
+  },
+  "detailed_results": [
+    {
+      "persona_id": "RP-001",
+      "description": "No SAP background, wants SAP consultant role, 5 hrs/week",
+      "goals": "Become an SAP consultant",
+      "background": "No SAP experience, business administration degree",
+      "time_availability": "5 hours per week",
+      "expected_path_ids": [
+        "SAP-101",
+        "SAP-102",
+        "SAP-103",
+        "SAP-106",
+        "SAP-104",
+        "SAP-108"
+      ],
+      "actual_path_ids": [
+        "SAP-101",
+        "SAP-102",
+        "SAP-103",
+        "SAP-106",
+        "SAP-107",
+        "SAP-104",
+        "SAP-108"
+      ],
+      "actual_path": [
+        {
+          "course_id": "SAP-101",
+          "title": "SAP Fundamentals",
+          "track": "SAP",
+          "estimated_hours": 12.0,
+          "difficulty_level": "beginner",
+          "week_start": 1,
+          "week_end": 3,
+          "prerequisite_ids": [],
+          "reason": "Foundation for all SAP courses"
+        },
+        {
+          "course_id": "SAP-102",
+          "title": "SAP Financial Accounting (FI) Basics",
+          "track": "SAP",
+          "estimated_hours": 20.0,
+          "difficulty_level": "intermediate",
+          "week_start": 4,
+          "week_end": 6,
+          "prerequisite_ids": [
+            "SAP-101"
+          ],
+          "reason": "Core financial accounting knowledge"
+        },
+        {
+          "course_id": "SAP-103",
+          "title": "SAP Controlling (CO) Fundamentals",
+          "track": "SAP",
+          "estimated_hours": 18.0,
+          "difficulty_level": "intermediate",
+          "week_start": 7,
+          "week_end": 9,
+          "prerequisite_ids": [
+            "SAP-101"
+          ],
+          "reason": "Understanding cost controlling fundamentals"
+        },
+        {
+          "course_id": "SAP-106",
+          "title": "SAP Materials Management (MM)",
+          "track": "SAP",
+          "estimated_hours": 20.0,
+          "difficulty_level": "intermediate",
+          "week_start": 10,
+          "week_end": 12,
+          "prerequisite_ids": [
+            "SAP-101"
+          ],
+          "reason": "Learn materials management processes"
+        },
+        {
+          "course_id": "SAP-107",
+          "title": "SAP Sales and Distribution (SD)",
+          "track": "SAP",
+          "estimated_hours": 20.0,
+          "difficulty_level": "intermediate",
+          "week_start": 13,
+          "week_end": 15,
+          "prerequisite_ids": [
+            "SAP-101"
+          ],
+          "reason": "Sales and distribution module training"
+        },
+        {
+          "course_id": "SAP-104",
+          "title": "SAP FICO Advanced Integration",
+          "track": "SAP",
+          "estimated_hours": 25.0,
+          "difficulty_level": "advanced",
+          "week_start": 16,
+          "week_end": 18,
+          "prerequisite_ids": [
+            "SAP-102",
+            "SAP-103"
+          ],
+          "reason": "Advanced integration of FI and CO"
+        },
+        {
+          "course_id": "SAP-108",
+          "title": "SAP Consultant Certification Prep",
+          "track": "SAP",
+          "estimated_hours": 30.0,
+          "difficulty_level": "advanced",
+          "week_start": 19,
+          "week_end": 20,
+          "prerequisite_ids": [
+            "SAP-104",
+            "SAP-106"
+          ],
+          "reason": "Prepare for SAP certification"
+        }
+      ],
+      "overlap_score": 1.0,
+      "overlap_detail": "6/6 expected courses found",
+      "ordering_violations": [],
+      "ordering_correct": true
+    },
+    {
+      "persona_id": "RP-002",
+      "description": "Cloud beginner, wants AWS Solutions Architect, 10 hrs/week",
+      "goals": "Become an AWS Solutions Architect",
+      "background": "Basic IT knowledge, no cloud experience",
+      "time_availability": "10 hours per week",
+      "expected_path_ids": [
+        "CLD-101",
+        "CLD-102",
+        "CLD-103",
+        "CLD-108",
+        "CLD-104"
+      ],
+      "actual_path_ids": [
+        "CLD-101",
+        "CLD-102",
+        "CLD-103",
+        "CLD-104",
+        "CLD-108",
+        "CLD-110"
+      ],
+      "actual_path": [
+        {
+          "course_id": "CLD-101",
+          "title": "Cloud Computing Fundamentals",
+          "track": "Cloud",
+          "estimated_hours": 10.0,
+          "difficulty_level": "beginner",
+          "week_start": 1,
+          "week_end": 1,
+          "prerequisite_ids": [],
+          "reason": "Foundation in cloud computing concepts."
+        },
+        {
+          "course_id": "CLD-102",
+          "title": "AWS Cloud Practitioner Essentials",
+          "track": "Cloud",
+          "estimated_hours": 15.0,
+          "difficulty_level": "beginner",
+          "week_start": 2,
+          "week_end": 2,
+          "prerequisite_ids": [
+            "CLD-101"
+          ],
+          "reason": "Learn AWS fundamentals."
+        },
+        {
+          "course_id": "CLD-103",
+          "title": "AWS Solutions Architect Associate",
+          "track": "Cloud",
+          "estimated_hours": 30.0,
+          "difficulty_level": "intermediate",
+          "week_start": 3,
+          "week_end": 4,
+          "prerequisite_ids": [
+            "CLD-102"
+          ],
+          "reason": "Intermediate AWS architecture skills."
+        },
+        {
+          "course_id": "CLD-104",
+          "title": "AWS DevOps and CI/CD",
+          "track": "Cloud",
+          "estimated_hours": 22.0,
+          "difficulty_level": "advanced",
+          "week_start": 5,
+          "week_end": 6,
+          "prerequisite_ids": [
+            "CLD-103"
+          ],
+          "reason": "Implement DevOps practices on AWS."
+        },
+        {
+          "course_id": "CLD-108",
+          "title": "Cloud Architecture Design Patterns",
+          "track": "Cloud",
+          "estimated_hours": 20.0,
+          "difficulty_level": "advanced",
+          "week_start": 7,
+          "week_end": 8,
+          "prerequisite_ids": [
+            "CLD-103"
+          ],
+          "reason": "Learn cloud architecture design patterns."
+        },
+        {
+          "course_id": "CLD-110",
+          "title": "AWS Solutions Architect Professional",
+          "track": "Cloud",
+          "estimated_hours": 35.0,
+          "difficulty_level": "advanced",
+          "week_start": 9,
+          "week_end": 12,
+          "prerequisite_ids": [
+            "CLD-103",
+            "CLD-104"
+          ],
+          "reason": "Advanced AWS architecture skills."
+        }
+      ],
+      "overlap_score": 1.0,
+      "overlap_detail": "5/5 expected courses found",
+      "ordering_violations": [],
+      "ordering_correct": true
+    },
+    {
+      "persona_id": "RP-003",
+      "description": "Salesforce admin aspirant, no prior experience, 3 hrs/week (tight constraint)",
+      "goals": "Become a Salesforce Administrator",
+      "background": "No prior CRM or Salesforce experience",
+      "time_availability": "3 hours per week",
+      "expected_path_ids": [
+        "SF-101",
+        "SF-102",
+        "SF-103",
+        "SF-104",
+        "SF-105",
+        "SF-106"
+      ],
+      "actual_path_ids": [
+        "SF-101",
+        "SF-102",
+        "SF-103",
+        "SF-104",
+        "SF-105",
+        "SF-106"
+      ],
+      "actual_path": [
+        {
+          "course_id": "SF-101",
+          "title": "Salesforce Platform Basics",
+          "track": "Salesforce",
+          "estimated_hours": 10.0,
+          "difficulty_level": "beginner",
+          "week_start": 1,
+          "week_end": 4,
+          "prerequisite_ids": [],
+          "reason": "Foundation for Salesforce knowledge."
+        },
+        {
+          "course_id": "SF-102",
+          "title": "Salesforce Administration Essentials",
+          "track": "Salesforce",
+          "estimated_hours": 20.0,
+          "difficulty_level": "intermediate",
+          "week_start": 5,
+          "week_end": 8,
+          "prerequisite_ids": [
+            "SF-101"
+          ],
+          "reason": "Core admin skills development."
+        },
+        {
+          "course_id": "SF-103",
+          "title": "Salesforce Data Modeling and Management",
+          "track": "Salesforce",
+          "estimated_hours": 15.0,
+          "difficulty_level": "intermediate",
+          "week_start": 9,
+          "week_end": 12,
+          "prerequisite_ids": [
+            "SF-101"
+          ],
+          "reason": "Data management skills needed."
+        },
+        {
+          "course_id": "SF-104",
+          "title": "Salesforce Flow and Automation",
+          "track": "Salesforce",
+          "estimated_hours": 18.0,
+          "difficulty_level": "intermediate",
+          "week_start": 13,
+          "week_end": 16,
+          "prerequisite_ids": [
+            "SF-102"
+          ],
+          "reason": "Learn automation techniques."
+        },
+        {
+          "course_id": "SF-105",
+          "title": "Salesforce Reports and Dashboards",
+          "track": "Salesforce",
+          "estimated_hours": 12.0,
+          "difficulty_level": "intermediate",
+          "week_start": 17,
+          "week_end": 19,
+          "prerequisite_ids": [
+            "SF-102"
+          ],
+          "reason": "Reporting and dashboard skills."
+        },
+        {
+          "course_id": "SF-106",
+          "title": "Salesforce Administrator Certification Prep",
+          "track": "Salesforce",
+          "estimated_hours": 25.0,
+          "difficulty_level": "advanced",
+          "week_start": 20,
+          "week_end": 24,
+          "prerequisite_ids": [
+            "SF-102",
+            "SF-103",
+            "SF-104"
+          ],
+          "reason": "Certification exam preparation."
+        }
+      ],
+      "overlap_score": 1.0,
+      "overlap_detail": "6/6 expected courses found",
+      "ordering_violations": [],
+      "ordering_correct": true
+    },
+    {
+      "persona_id": "RP-004",
+      "description": "AI/ML practitioner with Python basics, 8 hrs/week",
+      "goals": "Build expertise in AI/ML for a career in data science",
+      "background": "Knows Python basics, familiar with statistics fundamentals",
+      "time_availability": "8 hours per week",
+      "expected_path_ids": [
+        "AI-101",
+        "AI-102",
+        "AI-103",
+        "AI-104",
+        "AI-105"
+      ],
+      "actual_path_ids": [
+        "AI-101",
+        "AI-102",
+        "AI-103",
+        "AI-104",
+        "AI-105",
+        "AI-106",
+        "AI-107",
+        "AI-108"
+      ],
+      "actual_path": [
+        {
+          "course_id": "AI-101",
+          "title": "Introduction to Artificial Intelligence",
+          "track": "AI",
+          "estimated_hours": 10.0,
+          "difficulty_level": "beginner",
+          "week_start": 1,
+          "week_end": 1,
+          "prerequisite_ids": [],
+          "reason": "Foundational AI concepts needed first"
+        },
+        {
+          "course_id": "AI-102",
+          "title": "Python for Data Science and ML",
+          "track": "AI",
+          "estimated_hours": 20.0,
+          "difficulty_level": "beginner",
+          "week_start": 2,
+          "week_end": 3,
+          "prerequisite_ids": [
+            "AI-101"
+          ],
+          "reason": "Learn Python for AI/ML workflows"
+        },
+        {
+          "course_id": "AI-103",
+          "title": "Machine Learning Algorithms Deep Dive",
+          "track": "AI",
+          "estimated_hours": 25.0,
+          "difficulty_level": "intermediate",
+          "week_start": 4,
+          "week_end": 6,
+          "prerequisite_ids": [
+            "AI-102"
+          ],
+          "reason": "Deep dive into ML algorithms"
+        },
+        {
+          "course_id": "AI-104",
+          "title": "Deep Learning with TensorFlow and PyTorch",
+          "track": "AI",
+          "estimated_hours": 30.0,
+          "difficulty_level": "advanced",
+          "week_start": 7,
+          "week_end": 9,
+          "prerequisite_ids": [
+            "AI-103"
+          ],
+          "reason": "Learn deep learning frameworks"
+        },
+        {
+          "course_id": "AI-105",
+          "title": "Natural Language Processing (NLP)",
+          "track": "AI",
+          "estimated_hours": 25.0,
+          "difficulty_level": "advanced",
+          "week_start": 10,
+          "week_end": 12,
+          "prerequisite_ids": [
+            "AI-103"
+          ],
+          "reason": "Understand NLP techniques"
+        },
+        {
+          "course_id": "AI-106",
+          "title": "MLOps and Model Deployment",
+          "track": "AI",
+          "estimated_hours": 20.0,
+          "difficulty_level": "advanced",
+          "week_start": 13,
+          "week_end": 14,
+          "prerequisite_ids": [
+            "AI-103",
+            "CLD-103"
+          ],
+          "reason": "Operationalize ML models with MLOps"
+        },
+        {
+          "course_id": "AI-107",
+          "title": "Generative AI and LLM Applications",
+          "track": "AI",
+          "estimated_hours": 22.0,
+          "difficulty_level": "advanced",
+          "week_start": 15,
+          "week_end": 16,
+          "prerequisite_ids": [
+            "AI-104",
+            "AI-105"
+          ],
+          "reason": "Build applications with LLMs"
+        },
+        {
+          "course_id": "AI-108",
+          "title": "Computer Vision Fundamentals",
+          "track": "AI",
+          "estimated_hours": 22.0,
+          "difficulty_level": "advanced",
+          "week_start": 17,
+          "week_end": 19,
+          "prerequisite_ids": [
+            "AI-104"
+          ],
+          "reason": "Explore computer vision projects"
+        }
+      ],
+      "overlap_score": 1.0,
+      "overlap_detail": "5/5 expected courses found",
+      "ordering_violations": [],
+      "ordering_correct": true
+    },
+    {
+      "persona_id": "RP-005",
+      "description": "Cybersecurity career changer, IT background, 6 hrs/week",
+      "goals": "Transition into cybersecurity, get Security+ certified",
+      "background": "5 years IT support experience, familiar with networking basics",
+      "time_availability": "6 hours per week",
+      "expected_path_ids": [
+        "CS-101",
+        "CS-102",
+        "CS-108",
+        "CS-103",
+        "CS-104"
+      ],
+      "actual_path_ids": [
+        "CS-101",
+        "CS-102",
+        "CS-108"
+      ],
+      "actual_path": [
+        {
+          "course_id": "CS-101",
+          "title": "Cybersecurity Fundamentals",
+          "track": "Cybersecurity",
+          "estimated_hours": 12.0,
+          "difficulty_level": "beginner",
+          "week_start": 1,
+          "week_end": 2,
+          "prerequisite_ids": [],
+          "reason": "Foundational knowledge in cybersecurity."
+        },
+        {
+          "course_id": "CS-102",
+          "title": "Network Security and Firewalls",
+          "track": "Cybersecurity",
+          "estimated_hours": 20.0,
+          "difficulty_level": "intermediate",
+          "week_start": 3,
+          "week_end": 5,
+          "prerequisite_ids": [
+            "CS-101"
+          ],
+          "reason": "Essential for network security skills."
+        },
+        {
+          "course_id": "CS-108",
+          "title": "CompTIA Security+ Certification Prep",
+          "track": "Cybersecurity",
+          "estimated_hours": 25.0,
+          "difficulty_level": "intermediate",
+          "week_start": 6,
+          "week_end": 10,
+          "prerequisite_ids": [
+            "CS-101",
+            "CS-102"
+          ],
+          "reason": "Prepares for Security+ certification."
+        }
+      ],
+      "overlap_score": 0.6,
+      "overlap_detail": "3/5 expected courses found",
+      "ordering_violations": [],
+      "ordering_correct": true
+    }
+  ]
+}
